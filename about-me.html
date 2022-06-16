@@ -46,6 +46,12 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+h3 {
+	font-size: 20px;
+	color: black;
+	font-family: 'Poiret One';
+}
 </style>
 
 <body>
@@ -108,6 +114,17 @@ body {
 <div class="container">
 	<div class="row justify-content-md-left">
 		<p class="col-lg-auto">Sophie is thrilled to be starring as Rosannah in the play Brilliant Traces, which will be put on at _____. Buy tickets here!</p>
+	</div>
+</div>
+
+<!-- Copyright -->
+<div class="container">
+	<div class="row justify-content-lg-center">
+		<h3></h3>
+		<h3></h3>
+		<h3></h3>
+		<h3 id="copyright" class="col-lg-auto">&copy;Sophie Keplinger | </h3>
+		<script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
 	</div>
 </div>
 

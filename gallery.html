@@ -43,6 +43,12 @@ h2 {
 	font-family: 'Poiret One';
 }
 
+h3 {
+    font-size: 20px;
+    color: black;
+    font-family: 'Poiret One';
+}
+
 #img-ease {
     transition:transform 0.25s ease;
 }
@@ -153,7 +159,7 @@ h2 {
 </br>
 
 
-<!-- Carousel -->
+<!-- Carousel - https://stackoverflow.com/a/20008623/11200327 -->
 <div class="container text-center my-3">
     <div class="row mx-auto my-auto justify-content-center">
         <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -234,6 +240,7 @@ h2 {
 </br>
 
 <script>
+// https://stackoverflow.com/a/20008623/11200327
 let items = document.querySelectorAll('.carousel .carousel-item')
 
 items.forEach((el) => {
@@ -250,6 +257,16 @@ items.forEach((el) => {
     }
 })
 </script>
+
+<!-- Copyright -->
+<div class="container">
+    <div class="row justify-content-lg-center">
+        <h3></h3>
+        <h3></h3>
+        <h3 id="copyright" class="col-lg-auto">&copy;Sophie Keplinger | </h3>
+        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+    </div>
+</div>
 
 </body>
 

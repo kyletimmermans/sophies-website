@@ -30,6 +30,12 @@ h1 {
 	font-family: 'Poiret One';
 }
 
+h3 {
+	font-size: 20px;
+	color: black;
+	font-family: 'Poiret One';
+}
+
 body {
 	background-image: linear-gradient(to bottom, #1d222e, #2e3844, #404f5b, #546871, 
 	#698188, #789195, #89a1a2, #9ab1b0, #a7bbb8, #b3c4c1, #c0ceca, #cdd8d4);
@@ -76,6 +82,17 @@ body {
 		<img class="col-sm-4" src="assets/headshot3.jpeg">
 	</div>
 </div>
+
+<!-- Copyright -->
+<div class="container">
+	<div class="row justify-content-lg-center">
+		<h3></h3>
+		<h3></h3>
+		<h3 id="copyright" class="col-lg-auto">&copy;Sophie Keplinger | </h3>
+		<script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+	</div>
+</div>
+
 
 </body>
 
