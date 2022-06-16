@@ -57,40 +57,6 @@ h3 {
     -webkit-transform:scale(2); /* or some other value */
     transform:scale(2);
 }
-
-@media (max-width: 767px) {
-    .carousel-inner .carousel-item > div {
-        display: none;
-    }
-    .carousel-inner .carousel-item > div:first-child {
-        display: block;
-    }
-}
-
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-    display: flex;
-}
-
-/* medium and up screens */
-@media (min-width: 768px) {
-    
-    .carousel-inner .carousel-item-end.active,
-    .carousel-inner .carousel-item-next {
-      transform: translateX(25%);
-    }
-    
-    .carousel-inner .carousel-item-start.active, 
-    .carousel-inner .carousel-item-prev {
-      transform: translateX(-25%);
-    }
-}
-
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start { 
-  transform: translateX(0);
-}
 </style>
 
 <body>
@@ -132,19 +98,19 @@ h3 {
 <!-- Headshots Row 1 -->
 <div class="container">
 	<div class="row justify-content-sm-center flex-nowrap">
-		<img class="col-sm-2" id="img-ease" src="assets/headshot1.jpeg">
+		<img class="col-sm-2" id="img-ease" src="assets/gallery1.jpeg">
 		<div class="col-sm-auto"></div>
 		<div class="col-sm-auto"></div>
-		<img class="col-sm-2" id="img-ease" src="assets/headshot2.jpeg">
+		<img class="col-sm-2" id="img-ease" src="assets/gallery2.jpeg">
 		<div class="col-sm-auto"></div>
 		<div class="col-sm-auto"></div>
-		<img class="col-sm-2" id="img-ease" src="assets/headshot3.jpeg">
+		<img class="col-sm-2" id="img-ease" src="assets/gallery3.jpeg">
 		<div class="col-sm-auto"></div>
 		<div class="col-sm-auto"></div>
-		<img class="col-sm-2" id="img-ease" src="assets/headshot1.jpeg">
+		<img class="col-sm-2" id="img-ease" src="assets/gallery4.jpeg">
 		<div class="col-sm-auto"></div>
 		<div class="col-sm-auto"></div>
-		<img class="col-sm-2" id="img-ease" src="assets/headshot2.jpeg">
+		<img class="col-sm-2" id="img-ease" src="assets/gallery5.jpeg">
 	</div>
 </div>
 
@@ -159,104 +125,70 @@ h3 {
 </br>
 
 
-<!-- Carousel - https://stackoverflow.com/a/20008623/11200327 -->
-<div class="container text-center my-3">
-    <div class="row mx-auto my-auto justify-content-center">
-        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-        	<div class="carousel-indicators">
-				<button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="0" class="active"></button>
-				<button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="1"></button>
-				<button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="2"></button>
-				<button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="3"></button>
-				<button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="4"></button>
-				<button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="5"></button>
-			</div>
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="assets/headshot1.jpeg" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="assets/headshot2.jpeg" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="assets/headshot3.jpeg" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="assets/headshot1.jpeg" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="assets/headshot2.jpeg" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="assets/headshot3.jpeg" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </a>
-            <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </a>
-        </div>
+<!-- w3 School's Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="9"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="10"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/prod1.jpg" class="d-block col-md-4 mx-auto">
     </div>
+    <div class="carousel-item">
+      <img src="assets/prod2.jpg" class="d-block col-md-4 mx-auto">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/prod3.jpg" class="d-block col-md-4 mx-auto">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/prod4.jpg" class="d-block col-md-3 mx-auto">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/prod5.jpg" class="d-block col-md-3 mx-auto">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/prod6.jpg" class="d-block col-md-4 mx-auto">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/prod7.jpg" class="d-block col-md-3 mx-auto">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/prod8.jpg" class="d-block col-md-3 mx-auto">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/prod9.jpg" class="d-block col-md-4 mx-auto">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/prod10.jpg" class="d-block col-md-4 mx-auto">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/prod11.jpg" class="d-block col-md-3 mx-auto">
+    </div>
+
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
 </div>
-
-</br>
-
-<script>
-// https://stackoverflow.com/a/20008623/11200327
-let items = document.querySelectorAll('.carousel .carousel-item')
-
-items.forEach((el) => {
-    const minPerSlide = 4
-    let next = el.nextElementSibling
-    for (var i=1; i<minPerSlide; i++) {
-        if (!next) {
-            // wrap carousel by using first child
-        	next = items[0]
-      	}
-        let cloneChild = next.cloneNode(true)
-        el.appendChild(cloneChild.children[0])
-        next = next.nextElementSibling
-    }
-})
-</script>
 
 <!-- Copyright -->
 <div class="container">
