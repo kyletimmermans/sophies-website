@@ -1,5 +1,7 @@
-# <div align="center">www.sophiekeplinger.com</div>
+# <div align="center">sophiekeplinger.com</div>
 
 
 ToDo:
 - [ ] Make mobile version
+  - [ ] Mobile redirect
+  - [ ] Each custom page
