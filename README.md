@@ -6,14 +6,16 @@ ToDo:
   - [x] Mobile redirect
     - [ ] Upload normal index.html to FTP
   - [ ] Finish custom page
-    - [ ] mobile homepage
+    - [x] mobile homepage
+    - [x] mobile resume
     - [ ] mobile gallery
     - [ ] mobile reels
     - [ ] mobile contact
     - [ ] mobile about-me (mostly good)
     - [ ] mobile 404
   - [ ] Upload to GitHub
-    - [ ] mobile homepage
+    - [x] mobile homepage
+    - [x] mobile resume
     - [ ] mobile gallery
     - [ ] mobile reels
     - [ ] mobile contact
@@ -21,6 +23,7 @@ ToDo:
     - [ ] mobile 404
   - [ ] Upload to FTP
     - [ ] mobile homepage
+    - [ ] mobile resume
     - [ ] mobile gallery
     - [ ] mobile reels
     - [ ] mobile contact
