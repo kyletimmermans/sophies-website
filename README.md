@@ -19,7 +19,7 @@ ToDo:
     - [ ] mobile contact
     - [ ] mobile about-me (mostly good)
     - [ ] mobile 404
-   - [ ] Upload to FTP
+  - [ ] Upload to FTP
     - [ ] mobile homepage
     - [ ] mobile gallery
     - [ ] mobile reels
