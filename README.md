@@ -2,5 +2,4 @@
 
 
 ToDo:
-- [ ] Youtube video instead of raw
 - [ ] Make mobile version
