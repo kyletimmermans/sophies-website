@@ -2,6 +2,7 @@
 
 
 ToDo:
+- [ ] Remove Resume link from resume norm page
 - [ ] Make mobile version
   - [x] Mobile redirect
     - [ ] Upload normal index.html to FTP
