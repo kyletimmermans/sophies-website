@@ -1,7 +1,6 @@
 # <div align="center">sophiekeplinger.com</div>
 
 ToDo:
-- [ ] Fix mobile top links
 - [ ] Make mobile version
   - [x] Mobile redirect
     - [ ] Upload normal index.html to FTP
