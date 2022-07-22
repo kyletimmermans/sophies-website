@@ -9,7 +9,7 @@ ToDo:
     - [x] mobile resume
     - [x] mobile gallery
     - [x] mobile reels
-    - [ ] mobile contact
+    - [x] mobile contact
     - [ ] mobile about-me (mostly good)
     - [ ] mobile 404
   - [ ] Upload to GitHub
@@ -17,8 +17,8 @@ ToDo:
     - [x] mobile resume
     - [x] mobile gallery
     - [x] mobile reels
-    - [ ] mobile contact
-    - [ ] mobile about-me (mostly good)
+    - [x] mobile contact
+    - [ ] mobile about-me
     - [ ] mobile 404
   - [ ] Upload to FTP
     - [ ] mobile homepage
@@ -26,5 +26,5 @@ ToDo:
     - [ ] mobile gallery
     - [ ] mobile reels
     - [ ] mobile contact
-    - [ ] mobile about-me (mostly good)
+    - [ ] mobile about-me
     - [ ] mobile 404
