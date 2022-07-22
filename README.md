@@ -16,7 +16,7 @@ ToDo:
   - [ ] Upload to GitHub
     - [x] mobile homepage
     - [x] mobile resume
-    - [ ] mobile gallery
+    - [x] mobile gallery
     - [ ] mobile reels
     - [ ] mobile contact
     - [ ] mobile about-me (mostly good)
