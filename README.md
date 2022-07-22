@@ -10,7 +10,7 @@ ToDo:
     - [x] mobile gallery
     - [x] mobile reels
     - [x] mobile contact
-    - [ ] mobile about-me (mostly good)
+    - [x] mobile about-me (mostly good)
     - [ ] mobile 404
   - [ ] Upload to GitHub
     - [x] mobile homepage
@@ -18,7 +18,7 @@ ToDo:
     - [x] mobile gallery
     - [x] mobile reels
     - [x] mobile contact
-    - [ ] mobile about-me
+    - [x] mobile about-me
     - [ ] mobile 404
   - [ ] Upload to FTP
     - [ ] mobile homepage
