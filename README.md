@@ -3,7 +3,7 @@
 ToDo:
 - [ ] Make mobile version
   - [x] Mobile redirect
-    - [ ] Upload normal index.html to FTP
+    - [x] Upload normal index.html to FTP
   - [ ] Finish custom page
     - [x] mobile homepage
     - [x] mobile resume
