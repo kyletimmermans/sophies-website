@@ -20,11 +20,11 @@ ToDo:
     - [x] mobile contact
     - [x] mobile about-me
     - [x] mobile 404
-  - [ ] Upload to FTP
-    - [ ] mobile homepage
-    - [ ] mobile resume
-    - [ ] mobile gallery
-    - [ ] mobile reels
-    - [ ] mobile contact
-    - [ ] mobile about-me
-    - [ ] mobile 404
+  - [x] Upload to FTP
+    - [x] mobile homepage
+    - [x] mobile resume
+    - [x] mobile gallery
+    - [x] mobile reels
+    - [x] mobile contact
+    - [x] mobile about-me
+    - [x] mobile 404
