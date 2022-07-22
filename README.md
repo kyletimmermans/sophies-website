@@ -9,7 +9,7 @@ ToDo:
     - [x] mobile homepage
     - [x] mobile resume
     - [x] mobile gallery
-    - [ ] mobile reels
+    - [x] mobile reels
     - [ ] mobile contact
     - [ ] mobile about-me (mostly good)
     - [ ] mobile 404
@@ -17,7 +17,7 @@ ToDo:
     - [x] mobile homepage
     - [x] mobile resume
     - [x] mobile gallery
-    - [ ] mobile reels
+    - [x] mobile reels
     - [ ] mobile contact
     - [ ] mobile about-me (mostly good)
     - [ ] mobile 404
