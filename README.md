@@ -4,6 +4,5 @@
 
 
 ToDo:
-- [ ] Darker bio font color
 - [ ] Upload normal gallery
 - [ ] Upload mobile
