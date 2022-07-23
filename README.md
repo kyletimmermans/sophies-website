@@ -5,4 +5,3 @@
 
 ToDo:
 - [ ] Darker bio font color
-- [ ] Asynchronous image load for gallery
