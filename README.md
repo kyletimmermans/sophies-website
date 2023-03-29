@@ -28,9 +28,13 @@
 
 ![](https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_contact.gif?raw=true)
 
+## Favicon & Tab Name Style
+
 <p align="center">
   <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_404.png?raw=true" alt="Desktop 404 Page"/>
 </p>
+
+</br>
 
 <p align="center">
   <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/home_tab.png?raw=true" alt="Desktop 404 Page"/>
