@@ -28,6 +28,18 @@
 
 ![](https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_contact.gif?raw=true)
 
+<p align="center">
+  <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_404.png?raw=true" alt="Desktop 404 Page"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/home_tab.png?raw=true" alt="Desktop 404 Page"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/gallery_tab.png?raw=true" alt="Desktop 404 Page"/>
+</p>
+
 ## Mobile Screenshots
 
 <p align="center">
