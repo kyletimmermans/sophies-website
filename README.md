@@ -26,7 +26,7 @@
 
 ![](https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_scroll.gif?raw=true)
 
-![](https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_contact.gif?raw=true)
+![](https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_contact2.gif?raw=true)
 
 <p align="center">
   <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_404.png?raw=true" alt="Desktop 404 Page"/>
