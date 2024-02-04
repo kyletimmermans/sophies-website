@@ -15,6 +15,10 @@
 </p>
 
 <p align="center">
+  <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_gallery.png?raw=true" alt="Desktop Reels Page"/>
+</p>
+
+<p align="center">
   <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_about.png?raw=true" alt="Desktop About Me Page"/>
 </p>
 
