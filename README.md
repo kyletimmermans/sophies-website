@@ -33,7 +33,7 @@
 ![](https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_contact2.gif?raw=true)
 
 <p align="center">
-  <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_404.png?raw=true" alt="Desktop 404 Page"/>
+  <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop-404.png?raw=true" alt="Desktop 404 Page"/>
 </p>
 
 ## Favicon & Tab Name Style
@@ -51,5 +51,5 @@
 ## Mobile Screenshots
 
 <p align="center">
-  <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/mobile_home.png?raw=true" width="25%" height="25%" alt="Mobile Home Page"/>
+  <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/mobile-home.png?raw=true" width="25%" height="25%" alt="Mobile Home Page"/>
 </p>
