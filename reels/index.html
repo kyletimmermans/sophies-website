@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css"/>
 	<script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poiret+One">
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
+	<link rel="stylesheet" href="/main.css">
 	<title>Sophie Keplinger | Reels</title>
 </head>
 
@@ -28,9 +29,9 @@ body {
 	background-image: linear-gradient(to bottom, #1d222e, #2e3844, #404f5b, #546871, 
 	#698188, #789195, #89a1a2, #9ab1b0, #a7bbb8, #b3c4c1, #c0ceca, #cdd8d4);
 	height: 100%;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  	margin: 0;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
 }
 
 h1 {
@@ -39,10 +40,11 @@ h1 {
 	font-family: 'Poiret One';
 }
 
-h3 {
+h3, a {
 	font-size: 20px;
 	color: black;
 	font-family: 'Poiret One';
+	text-decoration: none !important;
 }
 
 h2 {
@@ -69,16 +71,12 @@ h2 {
 	</div>
 </div>
 
-</br>
-
 <!-- Title -->
-<div class="container">
+<div  style="margin-top: 5vh; margin-bottom: 5vh;" class="container">
 	<div class="row justify-content-lg-center">
 		<h1 class="col-lg-auto">Reels</h1>
 	</div>
 </div>
-
-</br>
 
 <div class="container">
 	<div class="row justify-content-md-center">
@@ -104,18 +102,16 @@ const player = new Plyr('#player', {});
 window.player = player;
 </script>
 
-</br>
-
-<div class="container">
+<div style="margin-top: 5vh;" class="container">
 	<div class="row justify-content-md-center">
 		<h2 class="col-md-auto">My Voice Work</h2>
 	</div>
 </div>
 
-<div class="container">
+<div style="width: 50vw" class="container">
 	<div class="row justify-content-md-center">
 		<div class="col-md-auto">
-		<audio controls>
+		<audio style="width: 45vw" controls>
   		<source src="/assets/voicework.mp3" type="audio/mpeg">
 			Your browser does not support the audio element.
 	  </audio>
@@ -123,17 +119,12 @@ window.player = player;
 	</div>
 </div>
 
-</br>
-
 <!-- Copyright -->
-<div class="container">
-	<div class="row justify-content-lg-center">
-		<h3></h3>
-		<h3></h3>
-		<h3></h3>
-		<h3 id="copyright" class="col-lg-auto">&copy;Sophie Keplinger | </h3>
-		<script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-	</div>
+<div style="margin-top: 12vh; padding-bottom: 2.5vh;" class="container">
+    <div class="row justify-content-lg-center">
+        <h3 class="col-lg-auto"><a id="copyright" href="/">&copy;Sophie Keplinger | </a></h3>
+        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+    </div>
 </div>
 
 </body>
