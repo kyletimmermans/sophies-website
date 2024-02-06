@@ -114,6 +114,7 @@ body {
 	#centered { font-size: 4.86vw; }
 	#special-a { font-size: 1.81vw; }
 	#email-a { font-size: 2.09vw; }
+	#email-label { font-size: 2.09vw; }
 }
 
 @media only screen and (orientation: landscape) {
