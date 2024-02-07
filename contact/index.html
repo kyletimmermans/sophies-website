@@ -121,8 +121,8 @@ h2 {
 <!-- Copyright -->
 <div style="margin-top: 12vh; padding-bottom: 2.5vh;" class="container">
     <div class="row justify-content-lg-center">
-        <h3 class="col-lg-auto"><a id="copyright" href="/">&copy;Sophie Keplinger | </a></h3>
-        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+        <h3 class="col-lg-auto"><a id="copyright" href="/">&copy;Sophie Keplinger |</a></h3>
+        <script>document.getElementById('copyright').innerText += ' ' + new Date().getFullYear();</script>
     </div>
 </div>
 

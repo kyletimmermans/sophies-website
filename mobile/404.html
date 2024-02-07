@@ -36,8 +36,8 @@ h3, a {
 	<div><a id="centered-a-mobile" href="/mobile">Error 404: Page Not Found!</a></div>
 	<!-- Copyright -->
 	<div style="margin-top: 10vh; padding-bottom: 2.5vh;" class="container">
-		<h3 class="d-flex justify-content-center"><a id="copyright" href="/mobile">&copy;Sophie Keplinger | </a></h3>
-		<script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+        <h3 class="d-flex justify-content-center"><a id="copyright" href="/mobile">&copy;Sophie Keplinger |</a></h3>
+        <script>document.getElementById('copyright').innerText += ' ' + new Date().getFullYear();</script>
 	</div>
 </div>
 
