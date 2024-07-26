@@ -30,7 +30,7 @@
   <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop-reels.png?raw=true" alt="Desktop Reels Page"/>
 </p>
 
-![](https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_gallery-video.gif?raw=true)
+![](https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop-gallery-video.gif?raw=true)
 
 ![](https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_contact2.gif?raw=true)
 
