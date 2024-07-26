@@ -121,3 +121,12 @@ body {
 @media only screen and (orientation: landscape) {
 	html { padding: env(safe-area-inset); }
 }
+
+/* Change select highlight color */
+::selection {
+	background: rgba(251, 107, 120, 0.5) !important;
+}
+
+::-moz-selection { /* Code for Firefox */
+	background: rgba(251, 107, 120, 0.5) !important;
+}
