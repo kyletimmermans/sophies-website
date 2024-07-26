@@ -51,5 +51,5 @@
 ## Mobile Screenshots
 
 <p align="center">
-  <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/mobile-home.png?raw=true" width="25%" height="25%" alt="Mobile Home Page"/>
+  <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/mobile_home.png?raw=true" width="25%" height="25%" alt="Mobile Home Page"/>
 </p>
