@@ -10,7 +10,12 @@ if (window.mobileCheck() && window.location.href.indexOf("mobile") == -1) {
     window.location.replace("/mobile"+window.location.pathname);
 // Is desktop, needs desktop (mobile in url)
 } else if (!window.mobileCheck() && window.location.href.indexOf("mobile") > -1) {
-	// Remove '/mobile/'
-	let segments = window.location.pathname.split('/').filter(segment => segment);
-	window.location.replace('/' + segments.slice(-1)[0] + '/');
+	// If its just /mobile/ go to home: /
+	if (window.location.pathname == '/mobile/') {
+		window.location.replace('/');
+	} else {
+		// Remove '/mobile/' if there are paths after it
+		let segments = window.location.pathname.split('/').filter(segment => segment);
+		window.location.replace('/' + segments.slice(-1)[0] + '/');
+	}
 }
