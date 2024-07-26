@@ -15,20 +15,12 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop-gallery.png?raw=true" alt="Desktop Reels Page"/>
-</p>
-
-<p align="center">
   <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop-about.png?raw=true" alt="Desktop About Me Page"/>
 </p>
 
 <p align="center">
   <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop-reels.png?raw=true" alt="Desktop Reels Page"/>
 </p>
-
-![](https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_zoom.gif?raw=true)
-
-![](https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_scroll.gif?raw=true)
 
 ![](https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_contact2.gif?raw=true)
 
