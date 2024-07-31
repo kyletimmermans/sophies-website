@@ -47,7 +47,7 @@
 </br>
 
 <p align="center">
-  <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/gallery_tab_v3.png?raw=true" alt="Favicon Gallery Page"/>
+  <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/gallery_page_tab.png?raw=true" alt="Favicon Gallery Page"/>
 </p>
 
 ## Mobile Screenshots
