@@ -1,163 +1,115 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-	<script type="text/javascript" src="/redirect.js" fetchpriority="high"></script>
-
-	<title>Gallery | Sophie Keplinger</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poiret+One">
-	<link rel="icon" type="image/x-icon" href="/favicon.ico">
-	<link rel="stylesheet" href="/main.css">
-
-	<meta property="og:title" content="Gallery | Sophie Keplinger">
-	<meta property="og:type" content="website">
-	<meta property="og:locale" content="en_US">
-	<meta property="og:url" content="https://www.sophiekeplinger.com/gallery/">
-	<meta property="og:description" content="Thanks for stopping by!">
-	<meta property="og:image" content="https://www.sophiekeplinger.com/assets/headshot3.webp">
-</head>
-
-<style>
-h1 {
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="/redirect.js" fetchpriority="high"></script>
+  <title>Gallery | Sophie Keplinger</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poiret+One">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/main.css">
+  <meta property="og:title" content="Gallery | Sophie Keplinger">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://www.sophiekeplinger.com/gallery/">
+  <meta property="og:description" content="Thanks for stopping by!">
+  <meta property="og:image" content="https://www.sophiekeplinger.com/assets/headshot3.webp">
+  <style>
+  h1 {
   font-size: 54px;
   color: #e8e1b7;
   font-family: 'Poiret One';
-}
+  }
 
-h2 {
-	font-size: 30px;
-	color: #e8e1b7;
-	font-family: 'Poiret One';
-}
+  h2 {
+        font-size: 30px;
+        color: #e8e1b7;
+        font-family: 'Poiret One';
+  }
 
-h3, a {
+  h3, a {
   font-size: 20px;
   color: black;
   font-family: 'Poiret One';
   text-decoration: none !important;
-}
+  }
 
-#img-ease {
+  #img-ease {
     transition:transform 0.25s ease;
-}
+  }
 
-#img-ease:hover {
+  #img-ease:hover {
     -webkit-transform:scale(2); /* or some other value */
     transform:scale(2);
     z-index: 1;
-}
+  }
 
-/* W3Schools Image Grid */
-.collage-row {
+  /* W3Schools Image Grid */
+  .collage-row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
-}
+  }
 
-.collage-col {
+  .collage-col {
   flex: 50%;
   padding: 0 4px;
-}
+  }
 
-.collage-col img {
+  .collage-col img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
   height: auto;
-}
-</style>
-
+  }
+  </style>
+</head>
 <body>
-
-<!-- Page Links -->
-<div class="container">
-	<div class="row justify-content-md-center flex-nowrap">
-		<a class="col-md-auto" href="/" id="special-a">Home</a>
-		<a class="col-md-auto"></a>
-		<a class="col-md-auto" href="/resume" id="special-a">Résumé</a>
-		<a class="col-md-auto"></a>
-		<a class="col-md-auto" href="/about-me" id="special-a">About Me</a>
-		<a class="col-md-auto"></a>
-		<a class="col-md-auto" href="/reels" id="special-a">Reels</a>
-		<a class="col-md-auto"></a>
-		<a class="col-md-auto" href="/contact" id="special-a">Contact</a>
-	</div>
-</div>
-
-<!-- Title -->
-<div style="margin-top: 6vh; margin-bottom: 6vh;" class="container">
-	<div class="row justify-content-lg-center">
-		<h1 class="col-lg-auto">Gallery</h1>
-	</div>
-</div>
-
-<div style="margin-bottom: 4vh;" class="container">
-	<div class="row justify-content-lg-center">
-		<h2 class="col-lg-auto">Headshots by Stephanie Naru</h2>
-	</div>
-</div>
-
-<!-- Headshots Row 1 -->
-<div class="container">
-	<div class="row justify-content-sm-center flex-nowrap">
-		<img class="col-sm-2" id="img-ease" src="/assets/gallery1.webp" loading="eager">
-		<div class="col-sm-auto"></div>
-		<div class="col-sm-auto"></div>
-		<img class="col-sm-2" id="img-ease" src="/assets/gallery2.webp" loading="eager">
-		<div class="col-sm-auto"></div>
-		<div class="col-sm-auto"></div>
-		<img class="col-sm-2" id="img-ease" src="/assets/gallery3.webp" loading="eager">
-		<div class="col-sm-auto"></div>
-		<div class="col-sm-auto"></div>
-		<img class="col-sm-2" id="img-ease" src="/assets/gallery4.webp" loading="eager">
-		<div class="col-sm-auto"></div>
-		<div class="col-sm-auto"></div>
-		<img class="col-sm-2" id="img-ease" src="/assets/gallery5.webp" loading="eager">
-	</div>
-</div>
-
-<!-- Production Photos -->
-<div style="margin-top: 10vh; margin-bottom: 4vh;" class="container">
-	<div class="row justify-content-lg-center">
-		<h2 class="col-lg-auto">Production Photos</h2>
-	</div>
-</div>
-
-<div class="collage-row">
-  <div class="collage-col">
-    <img src="/assets/prod5.webp" loading="eager">
-    <img src="/assets/prod1.webp" loading="eager">
-    <img src="/assets/prod10.webp" loading="eager">
-    <img src="/assets/prod4.webp" loading="eager">
-    <img src="/assets/prod6.webp" loading="eager">
-    <img src="/assets/prod8.webp" loading="lazy">
-    <img src="/assets/prod14.webp" loading="lazy">
-    <img src="/assets/prod11.webp" loading="lazy">
-  </div>
-  <div class="collage-col">
-    <img src="/assets/prod12.webp" loading="eager">
-    <img src="/assets/prod2.webp" loading="eager">
-    <img src="/assets/prod7.webp" loading="eager">
-    <img src="/assets/prod15.webp" loading="eager">
-    <img src="/assets/prod3.webp" loading="eager">
-    <img src="/assets/prod13.webp" loading="lazy">
-    <img src="/assets/prod9.webp" loading="lazy">
-    <img src="/assets/prod16.webp" loading="lazy">
-  </div>
-</div>
-
-<!-- Copyright -->
-<div style="margin-top: 12vh; padding-bottom: 2.5vh;" class="container">
-    <div class="row justify-content-lg-center">
-        <h3 class="col-lg-auto"><a id="copyright" href="/">&copy;Sophie Keplinger |</a></h3>
-        <script>document.getElementById('copyright').innerText += ' ' + new Date().getFullYear();</script>
+  <!-- Page Links -->
+  <div class="container">
+    <div class="row justify-content-md-center flex-nowrap">
+      <a class="col-md-auto" href="/" id="special-a">Home</a> <a class="col-md-auto"></a> <a class="col-md-auto" href="/resume" id="special-a">Résumé</a> <a class="col-md-auto"></a> <a class="col-md-auto" href="/about-me" id="special-a">About Me</a> <a class="col-md-auto"></a> <a class="col-md-auto" href="/reels" id="special-a">Reels</a> <a class="col-md-auto"></a> <a class="col-md-auto" href="/contact" id="special-a">Contact</a>
     </div>
-</div>
-
+  </div><!-- Title -->
+  <div style="margin-top: 6vh; margin-bottom: 6vh;" class="container">
+    <div class="row justify-content-lg-center">
+      <h1 class="col-lg-auto">Gallery</h1>
+    </div>
+  </div>
+  <div style="margin-bottom: 4vh;" class="container">
+    <div class="row justify-content-lg-center">
+      <h2 class="col-lg-auto">Headshots by Stephanie Naru</h2>
+    </div>
+  </div><!-- Headshots Row 1 -->
+  <div class="container">
+    <div class="row justify-content-sm-center flex-nowrap"><img class="col-sm-2" id="img-ease" src="/assets/gallery1.webp" loading="eager">
+    <div class="col-sm-auto"></div>
+    <div class="col-sm-auto"></div><img class="col-sm-2" id="img-ease" src="/assets/gallery2.webp" loading="eager">
+    <div class="col-sm-auto"></div>
+    <div class="col-sm-auto"></div><img class="col-sm-2" id="img-ease" src="/assets/gallery3.webp" loading="eager">
+    <div class="col-sm-auto"></div>
+    <div class="col-sm-auto"></div><img class="col-sm-2" id="img-ease" src="/assets/gallery4.webp" loading="eager">
+    <div class="col-sm-auto"></div>
+    <div class="col-sm-auto"></div><img class="col-sm-2" id="img-ease" src="/assets/gallery5.webp" loading="eager"></div>
+  </div><!-- Production Photos -->
+  <div style="margin-top: 10vh; margin-bottom: 4vh;" class="container">
+    <div class="row justify-content-lg-center">
+      <h2 class="col-lg-auto">Production Photos</h2>
+    </div>
+  </div>
+  <div class="collage-row">
+    <div class="collage-col"><img src="/assets/prod5.webp" loading="eager"> <img src="/assets/prod1.webp" loading="eager"> <img src="/assets/prod10.webp" loading="eager"> <img src="/assets/prod4.webp" loading="eager"> <img src="/assets/prod6.webp" loading="eager"> <img src="/assets/prod8.webp" loading="lazy"> <img src="/assets/prod14.webp" loading="lazy"> <img src="/assets/prod11.webp" loading="lazy"></div>
+    <div class="collage-col"><img src="/assets/prod12.webp" loading="eager"> <img src="/assets/prod2.webp" loading="eager"> <img src="/assets/prod7.webp" loading="eager"> <img src="/assets/prod15.webp" loading="eager"> <img src="/assets/prod3.webp" loading="eager"> <img src="/assets/prod13.webp" loading="lazy"> <img src="/assets/prod9.webp" loading="lazy"> <img src="/assets/prod16.webp" loading="lazy"></div>
+  </div><!-- Copyright -->
+  <div style="margin-top: 12vh; padding-bottom: 2.5vh;" class="container">
+    <div class="row justify-content-lg-center">
+      <h3 class="col-lg-auto"><a id="copyright" href="/">©Sophie Keplinger |</a></h3>
+      <script>
+      document.getElementById('copyright').innerText += ' ' + new Date().getFullYear();
+      </script>
+    </div>
+  </div>
 </body>
-
 </html>
