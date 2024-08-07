@@ -7,11 +7,9 @@ Allow: /reels/
 Allow: /contact/
 Disallow: /assets/
 Disallow: /media/
-Disallow: /mobile/
 Disallow: /main.css
 Disallow: /redirect.js
 Disallow: /favicon.ico
 Disallow: /README.md
-Disallow: /404.html
 
 Sitemap: https://www.sophiekeplinger.com/sitemap.xml
