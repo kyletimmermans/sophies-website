@@ -15,12 +15,14 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop-gallery-headshots.png?raw=true" alt="Desktop Resume Page"/>
+  <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop-gallery-headshots.png?raw=true" alt="Desktop Gallery Headshots"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop-gallery-production.png?raw=true" alt="Desktop Resume Page"/>
+  <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop-gallery-production.png?raw=true" alt="Desktop Gallery Production"/>
 </p>
+
+![](https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop-gallery-video.gif?raw=true)
 
 <p align="center">
   <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop-about.png?raw=true" alt="Desktop About Me Page"/>
@@ -29,8 +31,6 @@
 <p align="center">
   <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop-reels.png?raw=true" alt="Desktop Reels Page"/>
 </p>
-
-![](https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop-gallery-video.gif?raw=true)
 
 ![](https://github.com/kyletimmermans/sophies-website/blob/main/media/desktop_contact2.gif?raw=true)
 
