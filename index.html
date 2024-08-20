@@ -35,6 +35,10 @@
         font-family: 'Poiret One';
         text-decoration: none !important;
   }
+
+  @media screen and (min-width: 2100px) and (min-height: 1200px) {
+        .img-fluid { width: 40%; }
+  }
   </style>
 </head><!-- 180 deg or to bottom right for lg -->
 <body class="notranslate">
@@ -59,9 +63,39 @@
   </div><!-- Headshots -->
   <div class="container">
     <div class="row justify-content-sm-center flex-nowrap">
-      <img class="img-fluid col-sm-4" src="assets/headshot1.webp" alt="Headshot 1">
-      <img class="img-fluid col-sm-4" src="assets/headshot2.webp" alt="Headshot 2">
-      <img class="img-fluid col-sm-4" src="assets/headshot3.webp" alt="Headshot 3">
+      <img
+      class="img-fluid col-sm-4"
+      sizes="(max-width: 3415px) 40vw, 1366px"
+      srcset="
+      /assets/img/headshots/headshot1_w721.webp 721w,
+      /assets/img/headshots/headshot1_w835.webp 835w,
+      /assets/img/headshots/headshot1_w1017.webp 1017w,
+      /assets/img/headshots/headshot1_w1259.webp 1259w,
+      /assets/img/headshots/headshot1_w1366.webp 1366w"
+      src="/assets/img/headshots/headshot1_w1366.webp"
+      alt="Headshot 1">
+      <img
+      class="img-fluid col-sm-4"
+      sizes="(max-width: 3415px) 40vw, 1366px"
+      srcset="
+      /assets/img/headshots/headshot2_w754.webp 754w,
+      /assets/img/headshots/headshot2_w825.webp 825w,
+      /assets/img/headshots/headshot2_w1032.webp 1032w,
+      /assets/img/headshots/headshot2_w1191.webp 1191w,
+      /assets/img/headshots/headshot2_w1366.webp 1366w"
+      src="/assets/img/headshots/headshot2_w1366.webp"
+      alt="Headshot 2">
+      <img
+      class="img-fluid col-sm-4"
+      sizes="(max-width: 3415px) 40vw, 1366px"
+      srcset="
+      /assets/img/headshots/headshot3_w757.webp 757w,
+      /assets/img/headshots/headshot3_w844.webp 844w,
+      /assets/img/headshots/headshot3_w1037.webp 1037w,
+      /assets/img/headshots/headshot3_w1213.webp 1213w,
+      /assets/img/headshots/headshot3_w1366.webp 1366w"
+      src="/assets/img/headshots/headshot3_w1366.webp"
+      alt="Headshot 3">
     </div>
   </div>
   <!-- Copyright -->
