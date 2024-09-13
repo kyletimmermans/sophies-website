@@ -1,3 +1,9 @@
+[![Website](https://img.shields.io/badge/Website-sophiekeplinger.com-blue)](https://sophiekeplinger.com/)
+![Bootstrap 5](https://img.shields.io/badge/Bootstrap-5-8B11FA.svg)
+![Last Updated](https://img.shields.io/github/last-commit/kyletimmermans/sophies-website?color=success)
+[![kyletimmermans Twitter](http://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Follow)](https://twitter.com/kyletimmermans)
+
+
 # <div align="center"><a href="https://www.sophiekeplinger.com">sophiekeplinger.com</a></div>
 
 ### <div align="center">A dynamic, lightweight, and mobile friendly portfolio for an actor/actress</div>
