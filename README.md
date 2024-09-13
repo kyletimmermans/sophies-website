@@ -1,6 +1,6 @@
-[![Website](https://img.shields.io/badge/Website-sophiekeplinger.com-blue)](https://sophiekeplinger.com/)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fsophiekeplinger.com%2F&up_message=Online&down_message=Offline)
 ![Bootstrap 5](https://img.shields.io/badge/Bootstrap-5-8B11FA.svg)
-![Last Updated](https://img.shields.io/github/last-commit/kyletimmermans/sophies-website?color=success)
+![Last Updated](https://img.shields.io/github/last-commit/kyletimmermans/sophies-website?color=darkgreen)
 [![kyletimmermans Twitter](http://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Follow)](https://twitter.com/kyletimmermans)
 
 
