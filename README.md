@@ -61,3 +61,8 @@
 <p align="center">
   <img src="https://github.com/kyletimmermans/sophies-website/blob/main/media/mobile_home.png?raw=true" width="25%" height="25%" alt="Mobile Home Page"/>
 </p>
+
+<div>&#8203;</div>
+
+## Disclaimer
+The photos contained in this repository are **not free to use**. You must obtain explicit permission from the owner before using or distributing them in any form. Unauthorized use is strictly prohibited.
